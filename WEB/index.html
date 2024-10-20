@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchán S.L. - Talleres Mecánicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8e8e8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #0061ae;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .logo {
+            width: 100%; /* Logo ocupa todo el ancho */
+            height: auto;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #0061ae;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .portada {
+            background-image: url('ruta/a/tu/imagen_de_portada.jpg'); /* Reemplaza con la ruta de tu imagen de portada */
+            width: 100%;
+            height: 300px;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0061ae;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px white;
+        }
+        section {
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0061ae;
+            color: white;
+            width: 100%;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .map {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+        .servicios-imagen {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .servicios-imagen img {
+            width: 48%; /* Asegúrate de que estas imágenes estén en la carpeta */
+            border-radius: 8px;
+        }
+        .margen-imagen {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .margen-imagen img {
+            width: 48%; /* Mantener el mismo tamaño para las nuevas imágenes */
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo_merchan.webp" alt="Logo de Merchán S.L." class="logo">
+    <h1>Merchán S.L.</h1>
+    <p>Talleres Mecánicos con más de 30 años de experiencia</p>
+</header>
+
+<div class="portada">
+    <p>Tu taller de confianza para vehículos terrestres y marítimos</p>
+</div>
+
+<nav>
+    <a href="#historia">Historia</a>
+    <a href="#ubicacion">Ubicaciones</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#objetivos">Objetivos Futuros</a>
+</nav>
+
+<section id="historia">
+    <h2>Historia de Merchán S.L.</h2>
+    <p>
+        Fundada en 1994 por Francisco Merchán Santana, en un modesto taller en San Andrés, Merchán S.L. ha crecido hasta convertirse en una reconocida cadena de talleres mecánicos en Málaga. Durante los años 2000, lideramos el sector gracias a nuestro compromiso con la calidad y el servicio al cliente. A lo largo de 30 años, hemos ampliado nuestros servicios y ahora contamos con más de 7 talleres y más de 40 trabajadores, siendo un referente en reparaciones de coches, motos y barcos. Ahora, con la dirección de Alfredo Merchán Díaz y su padre Francisco, estamos listos para enfrentar nuevos retos y adaptarnos a las tecnologías del futuro.
+    </p>
+</section>
+
+<section id="ubicacion">
+    <h2>Encuentra Tu Taller Más Cercano</h2>
+    <p>
+        Estamos orgullosos de tener múltiples ubicaciones en Málaga para servirte mejor. Encuentra el taller más cercano y no dudes en visitarnos.
+    </p>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.5183187857706!2d-4.480486223598403!3d36.71011117277184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f74d46dce325%3A0xbed5041b66ee4ec!2sC.%20del%20Alcalde%20Guillermo%20Rein%2C%20Cruz%20de%20Humilladero%2C%2029006%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1729451004406!5m2!1ses!2ses" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<section id="servicios">
+    <h2>Servicios Ofrecidos</h2>
+    <p>
+        En Merchán S.L. ofrecemos una amplia gama de servicios para vehículos terrestres y marítimos. Realizamos todo tipo de reformas y cambios, garantizando que cada vehículo reciba la atención que merece. Nuestros servicios incluyen:
+    </p>
+    <div class="servicios-imagen">
+        <img src="reparacion_moto.jpg" alt="Reparación de motos"> <!-- Asegúrate de que esta imagen esté en la carpeta -->
+        <img src="reparacion_coche.jpg" alt="Reparación de coches"> <!-- Asegúrate de que esta imagen esté en la carpeta -->
+    </div>
+    <h3>Reparaciones de vehículos terrestres:</h3>
+    <p>
+        Nos especializamos en la reparación de:
+    </p>
+    <ul>
+        <li>Coches: Mantenimientos, reparaciones de motores y sistemas eléctricos.</li>
+        <li>Motos: Reparaciones de motores de dos y cuatro tiempos, cambios de aceite y más.</li>
+        <li>Furgonetas: Servicios de mantenimiento y reparaciones de mecánica pesada.</li>
+    </ul>
+    <div class="margen-imagen">
+        <img src="imagen_moto_agua.jpg" alt="Imagen de Moto de Agua"> <!-- Asegúrate de que esta imagen esté en la carpeta -->
+        <img src="imagen_barco.jpg" alt="Imagen de Barco"> <!-- Asegúrate de que esta imagen esté en la carpeta -->
+    </div>
+    <h3>Reparaciones de vehículos marítimos:</h3>
+    <p>
+        También ofrecemos servicios para:
+    </p>
+    <ul>
+        <li>Barcos: Reparación de motores fuera de borda y de casco.</li>
+        <li>Motos de agua: Mantenimientos y reparaciones de sistemas de propulsión.</li>
+        <li>Neumáticas: Reparación de inflables y mantenimiento de motores.</li>
+        <li>Veleros: Servicios de mantenimiento y reparaciones de aparejos y sistemas eléctricos.</li>
+    </ul>
+</section>
+
+<section id="objetivos">
+    <h2>Nuestra Visión Futura</h2>
+    <p>
+		En los últimos años, Merchán S.L. ha enfrentado un retroceso en su crecimiento y clientela debido a la falta de adaptación a las nuevas tecnologías. A pesar de nuestra sólida reputación, el uso de procesos en papel ha ralentizado nuestras operaciones y aumentado costos, lo que nos ha hecho menos competitivos.
+		Para revertir esta situación, hemos contratado a Alfredo Merchán González como nuestro Director de Transformación Digital. Su liderazgo será clave para modernizar nuestra maquinaria y adoptar herramientas digitales más eficientes y seguras. Nuestro objetivo es mejorar la comunicación con los clientes y optimizar nuestros procesos, lo que nos permitirá ofrecer un servicio más satisfactorio.
+		Además, planeamos utilizar redes sociales para acercarnos a nuestra clientela y expandir nuestro alcance. Con esta transformación, Merchán S.L. busca recuperar su posición como líder en el sector mecánico en Málaga, brindando un servicio excepcional adaptado a las necesidades actuales.   
+	</p>
+</section>
+
+<footer>
+    <div class="contact-info">
+        <p>Teléfono: 923-646-718</p>
+        <p>Síguenos en redes sociales</p>
+    </div>
+</footer>
+
+</body>
+</html>
